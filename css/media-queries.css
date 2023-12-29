@@ -1,0 +1,72 @@
+@import 'style.css';
+
+@media screen and (min-width: 1000px) { 
+    .header-div-navbar nav ul{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 40px;
+    }
+
+    .header-div-bar {
+        display: none;
+    }
+
+    .header-div-nav-ul-li {
+        font-size: 20px;
+    }
+    .header-div-nav-ul-li.active a{
+        color: white;
+        background-color: var(--main-color);
+        padding: 10px 30px;
+        border-radius: 20px;
+    }
+
+    #section-home { 
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .section-home-div-text { 
+        padding: 0 20px;
+    }
+
+    .section-home-div-img img {
+        width: 550px;
+        height: 515px;
+    }
+
+    .section-about-container {
+        display: grid;
+        grid-template-columns: 2fr 1fr;
+    }
+
+    .section-about-div-text p{
+        padding: 10px 20px;
+    } 
+
+    .section-about-div-text h2{
+        margin: 30px 0 20px 30px;
+    } 
+    
+    .section-about-div-img img {
+        align-self: flex-end;
+        width: 500px;
+        height: 390px;
+    }
+
+    .section-accordion-container {
+        width: 800px;
+    }
+    
+    .section-accordion-all{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .section-perform-div-container{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    } 
+}
