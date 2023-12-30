@@ -1,27 +1,7 @@
 @import 'style.css';
 
 @media screen and (min-width: 1000px) { 
-    .header-div-navbar nav ul{
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        gap: 40px;
-    }
-
-    .header-div-bar {
-        display: none;
-    }
-
-    .header-div-nav-ul-li {
-        font-size: 20px;
-    }
-    .header-div-nav-ul-li.active a{
-        color: white;
-        background-color: var(--main-color);
-        padding: 10px 30px;
-        border-radius: 20px;
-    }
-
+    
     #section-home { 
         display: grid;
         grid-template-columns: 1fr 1fr;
